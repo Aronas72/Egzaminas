@@ -16,11 +16,13 @@ using namespace std;
 
 struct ZodzioInfo {
     int kiekis = 0;
-    set<int> eilutes;};
+    set<int> eilutes;
+    string originalusZodis;};
 
 void nuskaitytiFailus(stringstream& pagr_tekstas, stringstream& papild_nuorodos, vector<string>& galunes);
 void ieskotiNuorodu(stringstream& saltinis, vector<string>& rezultatas, const vector<string>& galunes, bool valytiTeksta = false, stringstream* isvalytasTekstas = nullptr);
 void analizuotiZodzius(stringstream& tekstas, unordered_map<string, ZodzioInfo>& statistika);
 void spausdintiRezultatus(const unordered_map<string, ZodzioInfo>& statistika, const vector<string>& nuorodos, int riba);
+string toLowerUTF8(string s);
 
 #endif
