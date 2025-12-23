@@ -12,4 +12,4 @@ Rezultatų failas:
 
 <img width="255" height="144" alt="image" src="https://github.com/user-attachments/assets/bffd7220-5f68-45a4-9aa1-1ae3840b5e56" />
 
-3. Žodžiai taip pat yra surikiuojami pagal kiekį, o jeigu kiekis tas pats tai tada pagal abecėlę.
+3. Žodžiai taip pat yra surikiuojami pagal kiekį, o jeigu kiekis tas pats, tai tada pagal abecėlę.
